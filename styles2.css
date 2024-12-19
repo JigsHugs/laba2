@@ -1,0 +1,61 @@
+.header {
+    background-color: #5d99a8;
+}
+
+.container {
+    display: grid;
+    max-width: 100px;
+}
+
+.photo img {
+    max-height: 300;
+}
+
+.photo img:hover {
+    opacity: 0.8;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.text-left, .text-right {
+    max-width: 600px;
+}
+
+.text-left h3{
+    text-align: center;
+}
+
+.text-right h3{
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-left ul{
+    padding: 0;
+}
+.text-right {
+    text-align: right;
+}
+
+.pseudo-link {
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+}
+
+.pseudo-link:before {
+    content: "<< ";
+}
+
+.pseudo-link:after {
+    content: " >>";
+}
